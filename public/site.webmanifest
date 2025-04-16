@@ -1,0 +1,19 @@
+{
+  "name": "Arcline Labs: A venture studio that builds prodcuts with users from earth to the edge of space. Built by Faraaz and Milan.",
+  "short_name": "Arcline Labs",
+  "icons": [
+    {
+      "src": "/assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#EEEEEE",
+  "background_color": "#EEEEEE",
+  "display": "standalone"
+}

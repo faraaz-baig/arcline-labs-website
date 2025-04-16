@@ -1,0 +1,139 @@
+#code {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+#code .comment {
+  position: absolute;
+  top: 1199px;
+  left: 798px;
+  width: 182px;
+  color: var(--mud);
+}
+
+#apollo2 {
+  position: absolute;
+  top: -28px;
+  left: -364px;
+  user-select: none;
+}
+
+#flow {
+  position: absolute;
+  left: -259px;
+  top: 267px;
+}
+
+#sensor {
+  position: absolute;
+  top: 330px;
+  left: 342px;
+  color: var(--accent);
+  font-size: 220px;
+}
+
+#mercury-diagram {
+  position: absolute;
+  top: 127px;
+  left: -505px;
+}
+
+#mission-report {
+  position: relative;
+  margin-top: 1375px;
+  left: 296px;
+}
+
+#code-rust {
+  position: absolute;
+  top: 198px;
+  left: 798px;
+}
+
+#code-js {
+  position: absolute;
+  top: 673px;
+  left: -40px;
+}
+
+#code-sql {
+  position: absolute;
+  bottom: -31px;
+  left: -3px;
+}
+
+@media screen and (max-width: 1115px) {
+  #mission-report {
+    left: 87px;
+    margin-top: 1316px;
+  }
+
+  #mercury-diagram {
+    top: 88px;
+    left: -642px;
+  }
+
+  #sensor {
+    left: 44px;
+    top: 286px;
+  }
+
+  #code-rust {
+    top: 210px;
+    left: 618px;
+  }
+
+  #code-js {
+    left: -284px;
+  }
+
+  #code-sql {
+    left: 326px;
+  }
+
+  #code .comment {
+    top: 1180px;
+    left: unset;
+    right: 176px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #diagram1 {
+    gap: 114px;
+  }
+
+  #mercury-diagram {
+    left: -953px;
+  }
+
+  #code-rust {
+    top: 88px;
+    left: 135px;
+  }
+
+  #code-sql {
+    left: 102px;
+    bottom: 56px;
+  }
+
+  #sensor {
+    left: 75px;
+    top: 970px;
+  }
+
+  #code .comment {
+    top: 1454px;
+  }
+
+  #mission-report {
+    left: 0;
+    margin: 1572px 0 320px;
+  }
+
+  #mission-report pre {
+    user-select: none;
+    pointer-events: none;
+  }
+}

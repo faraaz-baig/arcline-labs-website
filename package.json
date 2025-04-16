@@ -1,0 +1,50 @@
+{
+  "name": "arcline-landing-page",
+  "private": true,
+  "version": "1.000.0",
+  "type": "module",
+  "packageManager": "pnpm@9",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "format": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "preview": "vite preview",
+    "predeploy": "pnpm build",
+    "deploy": "gh-pages --cname departuremono.com -d dist"
+  },
+  "dependencies": {
+    "@ark-ui/solid": "^3.6.2",
+    "@codemirror/autocomplete": "^6.17.0",
+    "@codemirror/commands": "^6.6.0",
+    "@codemirror/lang-css": "^6.2.1",
+    "@codemirror/lang-go": "^6.0.1",
+    "@codemirror/lang-html": "^6.4.9",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/lang-markdown": "^6.2.5",
+    "@codemirror/lang-python": "^6.1.6",
+    "@codemirror/lang-rust": "^6.0.1",
+    "@codemirror/lang-sql": "^6.7.0",
+    "@codemirror/language": "^6.10.2",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.28.6",
+    "@lezer/highlight": "^1.2.0",
+    "codemirror": "^6.0.1",
+    "cva": "npm:class-variance-authority@^0.7.0",
+    "fonteditor-core": "^2.4.1",
+    "glslCanvas": "^0.2.6",
+    "kdim": "^0.6.6",
+    "p5": "^1.9.4",
+    "solid-codemirror": "^2.3.1",
+    "solid-js": "^1.8.18"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.6",
+    "gh-pages": "^6.1.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
